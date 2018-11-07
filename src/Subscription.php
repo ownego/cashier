@@ -5,7 +5,7 @@ namespace Laravel\Cashier;
 use Carbon\Carbon;
 use LogicException;
 use DateTimeInterface;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 
 class Subscription extends Model
 {
